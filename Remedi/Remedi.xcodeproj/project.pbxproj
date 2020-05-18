@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6D8C5D90512597E19AB112E /* Pods_Remedi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71201528F2DF7921ED39A56 /* Pods_Remedi.framework */; };
+		D51B3DF52368DC010058FDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B3DF42368DC010058FDCF /* AppDelegate.swift */; };
+		D51B3DF72368DC010058FDCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B3DF62368DC010058FDCF /* SceneDelegate.swift */; };
+		D51B3DFC2368DC010058FDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51B3DFA2368DC010058FDCF /* Main.storyboard */; };
+		D51B3DFF2368DC010058FDCF /* Remedi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D51B3DFD2368DC010058FDCF /* Remedi.xcdatamodeld */; };
+		D51B3E012368DC030058FDCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51B3E002368DC030058FDCF /* Assets.xcassets */; };
+		D51B3E042368DC030058FDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51B3E022368DC030058FDCF /* LaunchScreen.storyboard */; };
+		D51B3E0C2368DE380058FDCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D51B3E0B2368DE380058FDCF /* GoogleService-Info.plist */; };
+		D51B3E0E2368EC650058FDCF /* WhiteSecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B3E0D2368EC650058FDCF /* WhiteSecondaryButton.swift */; };
+		D51B3E102368ECC60058FDCF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B3E0F2368ECC60058FDCF /* Constants.swift */; };
+		D52185B123874F3100107406 /* DoctorHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52185B023874F3100107406 /* DoctorHomeViewController.swift */; };
+		D53240582368FFA700D839FE /* WhitePrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53240572368FFA700D839FE /* WhitePrimaryButton.swift */; };
+		D532405A2369033500D839FE /* TactileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53240592369033500D839FE /* TactileButton.swift */; };
+		D53408032369117E00017B8E /* BluePrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53408022369117E00017B8E /* BluePrimaryButton.swift */; };
+		D53408052369146C00017B8E /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53408042369146C00017B8E /* PasswordField.swift */; };
+		D53408072369147B00017B8E /* EmailField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53408062369147B00017B8E /* EmailField.swift */; };
+		D5340809236919DD00017B8E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5340808236919DD00017B8E /* LoginViewController.swift */; };
+		D534080B23691D0300017B8E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534080A23691D0300017B8E /* CustomTextField.swift */; };
+		D534080D23691E6300017B8E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534080C23691E6300017B8E /* RegisterViewController.swift */; };
+		D534080F23692E8900017B8E /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534080E23692E8900017B8E /* QRCodeViewController.swift */; };
+		D534081423694D0800017B8E /* QRCodeAuthenticateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534081323694D0800017B8E /* QRCodeAuthenticateViewController.swift */; };
+		D534081623695E8C00017B8E /* RedPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534081523695E8C00017B8E /* RedPrimaryButton.swift */; };
+		D5340818236BAFC500017B8E /* RightToLeftTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5340817236BAFC500017B8E /* RightToLeftTransition.swift */; };
+		D534081A236BAFFA00017B8E /* LeftToRightTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5340819236BAFFA00017B8E /* LeftToRightTransition.swift */; };
+		D534081F236BB0C300017B8E /* QRIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D534081E236BB0C300017B8E /* QRIntroViewController.swift */; };
+		D5340821236BB0D400017B8E /* PillIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5340820236BB0D400017B8E /* PillIntroViewController.swift */; };
+		D5340823236BB0F000017B8E /* MapIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5340822236BB0F000017B8E /* MapIntroViewController.swift */; };
+		D558C108236BDCB100AF099F /* PharmacyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D558C107236BDCB100AF099F /* PharmacyMapViewController.swift */; };
+		D558C10A236BDCCC00AF099F /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D558C109236BDCCC00AF099F /* TrackerViewController.swift */; };
+		D57672332388E14000C4F8B8 /* AddPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57672322388E14000C4F8B8 /* AddPatientViewController.swift */; };
+		D57672352388FEC200C4F8B8 /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57672342388FEC200C4F8B8 /* PatientTableViewCell.swift */; };
+		D5DC272B2389D823009C4068 /* PinkPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC272A2389D823009C4068 /* PinkPrimaryButton.swift */; };
+		D5DC272D2389D852009C4068 /* PinkSecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC272C2389D852009C4068 /* PinkSecondaryButton.swift */; };
+		D5DC27302389DFAB009C4068 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC272F2389DFAB009C4068 /* SplashScreenViewController.swift */; };
+		D5DC2734238A3F60009C4068 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC2733238A3F60009C4068 /* ProfileViewController.swift */; };
+		D5DC2736238A4518009C4068 /* ViewControllerGang.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC2735238A4518009C4068 /* ViewControllerGang.swift */; };
+		D5DC2738238A458A009C4068 /* PatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC2737238A458A009C4068 /* PatientListViewController.swift */; };
+		D5DC273A238A47C6009C4068 /* WarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC2739238A47C6009C4068 /* WarningViewController.swift */; };
+		D5E8462E236BF86500140030 /* BlueSimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E8462D236BF86400140030 /* BlueSimpleButton.swift */; };
+		D5E84630236BF87100140030 /* GraySimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E8462F236BF87100140030 /* GraySimpleButton.swift */; };
+		D5E84632236BFD8300140030 /* FraudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E84631236BFD8300140030 /* FraudViewController.swift */; };
+		D5E84634236C003800140030 /* AuthenticMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E84633236C003800140030 /* AuthenticMedicineViewController.swift */; };
+		D5E84636236C03C300140030 /* QRCodeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E84635236C03C300140030 /* QRCodeInfoViewController.swift */; };
+		D5FD48F6236CD52F002427E9 /* AddInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FD48F5236CD52F002427E9 /* AddInfoViewController.swift */; };
+		D5FD48F8236CDF54002427E9 /* FinalizeMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FD48F7236CDF54002427E9 /* FinalizeMedicineViewController.swift */; };
+		D5FD8E34236C05AE007A2976 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FD8E33236C05AE007A2976 /* InformationViewController.swift */; };
+		D5FD8E36236C78DF007A2976 /* SideEffectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FD8E35236C78DF007A2976 /* SideEffectsTableViewCell.swift */; };
+		D5FD8E39236CAFC0007A2976 /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FD8E38236CAFBF007A2976 /* CalendarTableViewCell.swift */; };
+		D5FD8E3B236CB1CD007A2976 /* AddMedicineQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FD8E3A236CB1CD007A2976 /* AddMedicineQRViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CA7C55E4474982D3204F6CB /* Pods-Remedi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remedi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Remedi/Pods-Remedi.release.xcconfig"; sourceTree = "<group>"; };
+		A48FC93E3939073CC8114C1B /* Pods-Remedi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remedi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Remedi/Pods-Remedi.debug.xcconfig"; sourceTree = "<group>"; };
+		B71201528F2DF7921ED39A56 /* Pods_Remedi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Remedi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51B3DF12368DC010058FDCF /* Remedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51B3DF42368DC010058FDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D51B3DF62368DC010058FDCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D51B3DFB2368DC010058FDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D51B3DFE2368DC010058FDCF /* Remedi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Remedi.xcdatamodel; sourceTree = "<group>"; };
+		D51B3E002368DC030058FDCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D51B3E032368DC030058FDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D51B3E052368DC030058FDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51B3E0B2368DE380058FDCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D51B3E0D2368EC650058FDCF /* WhiteSecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteSecondaryButton.swift; sourceTree = "<group>"; };
+		D51B3E0F2368ECC60058FDCF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D52185B023874F3100107406 /* DoctorHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorHomeViewController.swift; sourceTree = "<group>"; };
+		D53240572368FFA700D839FE /* WhitePrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitePrimaryButton.swift; sourceTree = "<group>"; };
+		D53240592369033500D839FE /* TactileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TactileButton.swift; sourceTree = "<group>"; };
+		D53408022369117E00017B8E /* BluePrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePrimaryButton.swift; sourceTree = "<group>"; };
+		D53408042369146C00017B8E /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
+		D53408062369147B00017B8E /* EmailField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailField.swift; sourceTree = "<group>"; };
+		D5340808236919DD00017B8E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D534080A23691D0300017B8E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D534080C23691E6300017B8E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D534080E23692E8900017B8E /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		D534081323694D0800017B8E /* QRCodeAuthenticateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeAuthenticateViewController.swift; sourceTree = "<group>"; };
+		D534081523695E8C00017B8E /* RedPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedPrimaryButton.swift; sourceTree = "<group>"; };
+		D5340817236BAFC500017B8E /* RightToLeftTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToLeftTransition.swift; sourceTree = "<group>"; };
+		D5340819236BAFFA00017B8E /* LeftToRightTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftToRightTransition.swift; sourceTree = "<group>"; };
+		D534081E236BB0C300017B8E /* QRIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRIntroViewController.swift; sourceTree = "<group>"; };
+		D5340820236BB0D400017B8E /* PillIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillIntroViewController.swift; sourceTree = "<group>"; };
+		D5340822236BB0F000017B8E /* MapIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapIntroViewController.swift; sourceTree = "<group>"; };
+		D558C107236BDCB100AF099F /* PharmacyMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyMapViewController.swift; sourceTree = "<group>"; };
+		D558C109236BDCCC00AF099F /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		D57672322388E14000C4F8B8 /* AddPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPatientViewController.swift; sourceTree = "<group>"; };
+		D57672342388FEC200C4F8B8 /* PatientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewCell.swift; sourceTree = "<group>"; };
+		D5DC272A2389D823009C4068 /* PinkPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkPrimaryButton.swift; sourceTree = "<group>"; };
+		D5DC272C2389D852009C4068 /* PinkSecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkSecondaryButton.swift; sourceTree = "<group>"; };
+		D5DC272F2389DFAB009C4068 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		D5DC2733238A3F60009C4068 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D5DC2735238A4518009C4068 /* ViewControllerGang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGang.swift; sourceTree = "<group>"; };
+		D5DC2737238A458A009C4068 /* PatientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListViewController.swift; sourceTree = "<group>"; };
+		D5DC2739238A47C6009C4068 /* WarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningViewController.swift; sourceTree = "<group>"; };
+		D5E8462D236BF86400140030 /* BlueSimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSimpleButton.swift; sourceTree = "<group>"; };
+		D5E8462F236BF87100140030 /* GraySimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraySimpleButton.swift; sourceTree = "<group>"; };
+		D5E84631236BFD8300140030 /* FraudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraudViewController.swift; sourceTree = "<group>"; };
+		D5E84633236C003800140030 /* AuthenticMedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticMedicineViewController.swift; sourceTree = "<group>"; };
+		D5E84635236C03C300140030 /* QRCodeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeInfoViewController.swift; sourceTree = "<group>"; };
+		D5FD48F5236CD52F002427E9 /* AddInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoViewController.swift; sourceTree = "<group>"; };
+		D5FD48F7236CDF54002427E9 /* FinalizeMedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalizeMedicineViewController.swift; sourceTree = "<group>"; };
+		D5FD8E33236C05AE007A2976 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		D5FD8E35236C78DF007A2976 /* SideEffectsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideEffectsTableViewCell.swift; sourceTree = "<group>"; };
+		D5FD8E38236CAFBF007A2976 /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		D5FD8E3A236CB1CD007A2976 /* AddMedicineQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicineQRViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D51B3DEE2368DC010058FDCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D8C5D90512597E19AB112E /* Pods_Remedi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B6E4B06FC4A0E76FD40B4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B71201528F2DF7921ED39A56 /* Pods_Remedi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B934F1CDDAEC245048C56E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A48FC93E3939073CC8114C1B /* Pods-Remedi.debug.xcconfig */,
+				9CA7C55E4474982D3204F6CB /* Pods-Remedi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D51B3DE82368DC010058FDCF = {
+			isa = PBXGroup;
+			children = (
+				D51B3DF32368DC010058FDCF /* Remedi */,
+				D51B3DF22368DC010058FDCF /* Products */,
+				6B934F1CDDAEC245048C56E2 /* Pods */,
+				33B6E4B06FC4A0E76FD40B4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D51B3DF22368DC010058FDCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D51B3DF12368DC010058FDCF /* Remedi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D51B3DF32368DC010058FDCF /* Remedi */ = {
+			isa = PBXGroup;
+			children = (
+				D5FD8E3A236CB1CD007A2976 /* AddMedicineQRViewController.swift */,
+				D5FD48F5236CD52F002427E9 /* AddInfoViewController.swift */,
+				D5FD48F7236CDF54002427E9 /* FinalizeMedicineViewController.swift */,
+				D534081023694C5600017B8E /* Delegates */,
+				D51B3DFA2368DC010058FDCF /* Main.storyboard */,
+				D5DC2739238A47C6009C4068 /* WarningViewController.swift */,
+				D5DC2735238A4518009C4068 /* ViewControllerGang.swift */,
+				D5DC2737238A458A009C4068 /* PatientListViewController.swift */,
+				D52185B223874F9C00107406 /* DoctorViewControllers */,
+				D5FD8E37236C7BE1007A2976 /* QRCodeViewControllers */,
+				D558C10B236BDE2900AF099F /* MainHomeViewControllers */,
+				D534081123694C7900017B8E /* OnloadingViewController */,
+				D534081223694C9500017B8E /* SupportFiles */,
+				D51B3E002368DC030058FDCF /* Assets.xcassets */,
+				D51B3E022368DC030058FDCF /* LaunchScreen.storyboard */,
+				D51B3E052368DC030058FDCF /* Info.plist */,
+				D51B3E0B2368DE380058FDCF /* GoogleService-Info.plist */,
+				D51B3DFD2368DC010058FDCF /* Remedi.xcdatamodeld */,
+				D5DC2733238A3F60009C4068 /* ProfileViewController.swift */,
+			);
+			path = Remedi;
+			sourceTree = "<group>";
+		};
+		D52185B223874F9C00107406 /* DoctorViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D52185B023874F3100107406 /* DoctorHomeViewController.swift */,
+				D57672322388E14000C4F8B8 /* AddPatientViewController.swift */,
+				D57672342388FEC200C4F8B8 /* PatientTableViewCell.swift */,
+			);
+			path = DoctorViewControllers;
+			sourceTree = "<group>";
+		};
+		D534081023694C5600017B8E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D51B3DF42368DC010058FDCF /* AppDelegate.swift */,
+				D51B3DF62368DC010058FDCF /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D534081123694C7900017B8E /* OnloadingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D5340808236919DD00017B8E /* LoginViewController.swift */,
+				D5DC272F2389DFAB009C4068 /* SplashScreenViewController.swift */,
+				D534080C23691E6300017B8E /* RegisterViewController.swift */,
+				D534081E236BB0C300017B8E /* QRIntroViewController.swift */,
+				D5340820236BB0D400017B8E /* PillIntroViewController.swift */,
+				D5340822236BB0F000017B8E /* MapIntroViewController.swift */,
+			);
+			path = OnloadingViewController;
+			sourceTree = "<group>";
+		};
+		D534081223694C9500017B8E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D534081C236BB08B00017B8E /* TextFields */,
+				D534081B236BB07900017B8E /* Transitions */,
+				D534081D236BB09900017B8E /* Buttons */,
+				D51B3E0F2368ECC60058FDCF /* Constants.swift */,
+				D5DC272E2389D857009C4068 /* NewButtons */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		D534081B236BB07900017B8E /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				D5340817236BAFC500017B8E /* RightToLeftTransition.swift */,
+				D5340819236BAFFA00017B8E /* LeftToRightTransition.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		D534081C236BB08B00017B8E /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				D534080A23691D0300017B8E /* CustomTextField.swift */,
+				D53408042369146C00017B8E /* PasswordField.swift */,
+				D53408062369147B00017B8E /* EmailField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		D534081D236BB09900017B8E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D53408022369117E00017B8E /* BluePrimaryButton.swift */,
+				D5E8462D236BF86400140030 /* BlueSimpleButton.swift */,
+				D5E8462F236BF87100140030 /* GraySimpleButton.swift */,
+				D51B3E0D2368EC650058FDCF /* WhiteSecondaryButton.swift */,
+				D534081523695E8C00017B8E /* RedPrimaryButton.swift */,
+				D53240572368FFA700D839FE /* WhitePrimaryButton.swift */,
+				D53240592369033500D839FE /* TactileButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		D558C10B236BDE2900AF099F /* MainHomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D534080E23692E8900017B8E /* QRCodeViewController.swift */,
+				D558C107236BDCB100AF099F /* PharmacyMapViewController.swift */,
+				D558C109236BDCCC00AF099F /* TrackerViewController.swift */,
+				D5FD8E38236CAFBF007A2976 /* CalendarTableViewCell.swift */,
+			);
+			path = MainHomeViewControllers;
+			sourceTree = "<group>";
+		};
+		D5DC272E2389D857009C4068 /* NewButtons */ = {
+			isa = PBXGroup;
+			children = (
+				D5DC272A2389D823009C4068 /* PinkPrimaryButton.swift */,
+				D5DC272C2389D852009C4068 /* PinkSecondaryButton.swift */,
+			);
+			path = NewButtons;
+			sourceTree = "<group>";
+		};
+		D5FD8E37236C7BE1007A2976 /* QRCodeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5FD8E35236C78DF007A2976 /* SideEffectsTableViewCell.swift */,
+				D5FD8E33236C05AE007A2976 /* InformationViewController.swift */,
+				D5E84633236C003800140030 /* AuthenticMedicineViewController.swift */,
+				D5E84631236BFD8300140030 /* FraudViewController.swift */,
+				D534081323694D0800017B8E /* QRCodeAuthenticateViewController.swift */,
+				D5E84635236C03C300140030 /* QRCodeInfoViewController.swift */,
+			);
+			path = QRCodeViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D51B3DF02368DC010058FDCF /* Remedi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51B3E082368DC030058FDCF /* Build configuration list for PBXNativeTarget "Remedi" */;
+			buildPhases = (
+				87F4992932FCEEA9694783FC /* [CP] Check Pods Manifest.lock */,
+				D51B3DED2368DC010058FDCF /* Sources */,
+				D51B3DEE2368DC010058FDCF /* Frameworks */,
+				D51B3DEF2368DC010058FDCF /* Resources */,
+				DC4A7F7EE36B496F5093FBC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remedi;
+			productName = Remedi;
+			productReference = D51B3DF12368DC010058FDCF /* Remedi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D51B3DE92368DC010058FDCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Shashank Venkatramani";
+				TargetAttributes = {
+					D51B3DF02368DC010058FDCF = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = D51B3DEC2368DC010058FDCF /* Build configuration list for PBXProject "Remedi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D51B3DE82368DC010058FDCF;
+			productRefGroup = D51B3DF22368DC010058FDCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51B3DF02368DC010058FDCF /* Remedi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D51B3DEF2368DC010058FDCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51B3E042368DC030058FDCF /* LaunchScreen.storyboard in Resources */,
+				D51B3E0C2368DE380058FDCF /* GoogleService-Info.plist in Resources */,
+				D51B3E012368DC030058FDCF /* Assets.xcassets in Resources */,
+				D51B3DFC2368DC010058FDCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87F4992932FCEEA9694783FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Remedi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4A7F7EE36B496F5093FBC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Remedi/Pods-Remedi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Remedi/Pods-Remedi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D51B3DED2368DC010058FDCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E84634236C003800140030 /* AuthenticMedicineViewController.swift in Sources */,
+				D534081423694D0800017B8E /* QRCodeAuthenticateViewController.swift in Sources */,
+				D534081A236BAFFA00017B8E /* LeftToRightTransition.swift in Sources */,
+				D532405A2369033500D839FE /* TactileButton.swift in Sources */,
+				D5340823236BB0F000017B8E /* MapIntroViewController.swift in Sources */,
+				D51B3E102368ECC60058FDCF /* Constants.swift in Sources */,
+				D57672332388E14000C4F8B8 /* AddPatientViewController.swift in Sources */,
+				D53408032369117E00017B8E /* BluePrimaryButton.swift in Sources */,
+				D5FD8E36236C78DF007A2976 /* SideEffectsTableViewCell.swift in Sources */,
+				D5FD48F8236CDF54002427E9 /* FinalizeMedicineViewController.swift in Sources */,
+				D5DC272D2389D852009C4068 /* PinkSecondaryButton.swift in Sources */,
+				D51B3DFF2368DC010058FDCF /* Remedi.xcdatamodeld in Sources */,
+				D5E8462E236BF86500140030 /* BlueSimpleButton.swift in Sources */,
+				D53408052369146C00017B8E /* PasswordField.swift in Sources */,
+				D5FD8E39236CAFC0007A2976 /* CalendarTableViewCell.swift in Sources */,
+				D558C10A236BDCCC00AF099F /* TrackerViewController.swift in Sources */,
+				D558C108236BDCB100AF099F /* PharmacyMapViewController.swift in Sources */,
+				D51B3DF52368DC010058FDCF /* AppDelegate.swift in Sources */,
+				D5DC27302389DFAB009C4068 /* SplashScreenViewController.swift in Sources */,
+				D5FD8E3B236CB1CD007A2976 /* AddMedicineQRViewController.swift in Sources */,
+				D51B3E0E2368EC650058FDCF /* WhiteSecondaryButton.swift in Sources */,
+				D53240582368FFA700D839FE /* WhitePrimaryButton.swift in Sources */,
+				D534080B23691D0300017B8E /* CustomTextField.swift in Sources */,
+				D52185B123874F3100107406 /* DoctorHomeViewController.swift in Sources */,
+				D5E84632236BFD8300140030 /* FraudViewController.swift in Sources */,
+				D51B3DF72368DC010058FDCF /* SceneDelegate.swift in Sources */,
+				D5340818236BAFC500017B8E /* RightToLeftTransition.swift in Sources */,
+				D534081F236BB0C300017B8E /* QRIntroViewController.swift in Sources */,
+				D534080D23691E6300017B8E /* RegisterViewController.swift in Sources */,
+				D5DC2736238A4518009C4068 /* ViewControllerGang.swift in Sources */,
+				D5DC2738238A458A009C4068 /* PatientListViewController.swift in Sources */,
+				D534081623695E8C00017B8E /* RedPrimaryButton.swift in Sources */,
+				D5FD8E34236C05AE007A2976 /* InformationViewController.swift in Sources */,
+				D57672352388FEC200C4F8B8 /* PatientTableViewCell.swift in Sources */,
+				D5340821236BB0D400017B8E /* PillIntroViewController.swift in Sources */,
+				D5DC273A238A47C6009C4068 /* WarningViewController.swift in Sources */,
+				D53408072369147B00017B8E /* EmailField.swift in Sources */,
+				D534080F23692E8900017B8E /* QRCodeViewController.swift in Sources */,
+				D5E84630236BF87100140030 /* GraySimpleButton.swift in Sources */,
+				D5DC2734238A3F60009C4068 /* ProfileViewController.swift in Sources */,
+				D5E84636236C03C300140030 /* QRCodeInfoViewController.swift in Sources */,
+				D5FD48F6236CD52F002427E9 /* AddInfoViewController.swift in Sources */,
+				D5DC272B2389D823009C4068 /* PinkPrimaryButton.swift in Sources */,
+				D5340809236919DD00017B8E /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D51B3DFA2368DC010058FDCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51B3DFB2368DC010058FDCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D51B3E022368DC030058FDCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51B3E032368DC030058FDCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D51B3E062368DC030058FDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D51B3E072368DC030058FDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D51B3E092368DC030058FDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48FC93E3939073CC8114C1B /* Pods-Remedi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R484PGFUQ;
+				INFOPLIST_FILE = Remedi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvenkatramani.Remedi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D51B3E0A2368DC030058FDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA7C55E4474982D3204F6CB /* Pods-Remedi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R484PGFUQ;
+				INFOPLIST_FILE = Remedi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvenkatramani.Remedi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D51B3DEC2368DC010058FDCF /* Build configuration list for PBXProject "Remedi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51B3E062368DC030058FDCF /* Debug */,
+				D51B3E072368DC030058FDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51B3E082368DC030058FDCF /* Build configuration list for PBXNativeTarget "Remedi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51B3E092368DC030058FDCF /* Debug */,
+				D51B3E0A2368DC030058FDCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D51B3DFD2368DC010058FDCF /* Remedi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D51B3DFE2368DC010058FDCF /* Remedi.xcdatamodel */,
+			);
+			currentVersion = D51B3DFE2368DC010058FDCF /* Remedi.xcdatamodel */;
+			path = Remedi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D51B3DE92368DC010058FDCF /* Project object */;
+}
