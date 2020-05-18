@@ -1,5 +1,6 @@
 # Remedi 
-Description:
+###### Project Description:
+
   Remedi is an innovative iOS application to help prevent millions of deaths due to the usage of counterfeit medication. Our application hosts a variety of additional features, allowing the user to track their medications, find reliable pharmacies near them, and alert their doctors if they are taking medications that could interact. 
   
   By adding QR codes to each medication label, users can track any medication through our app. By connecting our app to a live database of all of these medications, we can then monitor their status, and tell users if their scanned medication is authentic.
