@@ -11,6 +11,7 @@
   
   To develop and train our support vector machine we used python, and to bring our iOS application to life we used Xcode and Firebase, a secure backend database hosted by google.
   
+  
 📷Photos:
 https://tinyurl.com/remediPhotos
 
