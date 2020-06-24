@@ -14,14 +14,11 @@
   To develop and train our support vector machine we used Python, and to bring our iOS application to life we used Xcode and Firebase, a secure backend database hosted by Google.
   
 
- 📷 Photos:
-https://tinyurl.com/remediPhotos
+- 📷 Photos: https://tinyurl.com/remediPhotos
 
-📹 Video: 
-https://www.youtube.com/watch?v=_fIcDJLJp30&t=162s
+- 📹 Video: https://www.youtube.com/watch?v=_fIcDJLJp30&t=162s
 
-👨‍💻 Developers:
-Rishabh Mudradi and Shashank Venkatramani 
+- 👨‍💻 Developers: Rishabh Mudradi and Shashank Venkatramani 
 
 📬 Contact: 
 +(669)-214-0379, rishabh.mudradi@gmail.com
