@@ -11,18 +11,18 @@
   
   To ensure our application would run flawlessly, we decided to keep our user interface clear and to the point by incorporating intuitive design and colorful animations. 
   
-  To develop and train our support vector machine we used python, and to bring our iOS application to life we used Xcode and Firebase, a secure backend database hosted by google.
+  To develop and train our support vector machine we used Python, and to bring our iOS application to life we used Xcode and Firebase, a secure backend database hosted by Google.
   
-  
-📷  Photos:
+
+📷 Photos:
 https://tinyurl.com/remediPhotos
 
-📹  Video: 
+📹 Video: 
 https://www.youtube.com/watch?v=_fIcDJLJp30&t=162s
 
-👨‍💻  Developers:
+👨‍💻 Developers:
 Rishabh Mudradi and Shashank Venkatramani 
 
-📬  Contact: 
+📬 Contact: 
 +(669)-214-0379, rishabh.mudradi@gmail.com
 
